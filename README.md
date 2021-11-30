@@ -3,6 +3,19 @@
 ## Requirements
 * [setup the platform](https://kernelnewbies.org/OutreachyfirstpatchSetup)
 * [follw the guideline](https://kernelnewbies.org/FirstKernelPatch)
+* vim setup
+```
+# ~/.vimrc
+filetype plugin indent on
+syntax on
+set title
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
+set list listchars=tab:»\ ,trail:·,extends:»,precedes:«                                                       
+```
+
 
 ## Problem with `sudo make`
 ```
