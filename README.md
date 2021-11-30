@@ -1,5 +1,9 @@
 # kernelhacking
 
+## Requirements
+[setup the platform](https://kernelnewbies.org/OutreachyfirstpatchSetup)
+[follw the guideline](https://kernelnewbies.org/FirstKernelPatch)
+
 ## Problem with `sudo make`
 ```
 make[1]: *** No rule to make target 'debian/canonical-certs.pem', needed by 'certs/x509_certificate_list'.  Stop.
