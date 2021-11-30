@@ -25,7 +25,7 @@ set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 7. `git format-patch -o /tmp/ HEAD^` - patch it
 8. `./scripts/checkpatch.pl /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - check patch format
 9. `./scripts/get_maintainer.pl /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - find out who to send
-10. `mutt -H /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - send it, multiple recipient divided by `,`
+10. `mutt -H /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - send it, multiple recipients separated with comma e.g. `abc@mail.com, cde@mail.com`
 
 ## Troubleshoot
 
