@@ -51,3 +51,11 @@ ModuleNotFoundError: No module named 'ply'
 ModuleNotFoundError: No module named 'git'
 ```
 `pip install gitpython`
+
+## Problem with `git commit -s -v`
+```
+fatal: unable to auto-detect email address
+```
+`git config user.email "you@example.com"`
+
+`git config user.name "Your Name"`
