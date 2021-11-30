@@ -27,7 +27,7 @@ set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 9. `./scripts/get_maintainer.pl /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - find out who to send
 10. `mutt -H /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - send it, multiple recipients separated with comma e.g. `abc@mail.com, cde@mail.com`
 
-## Troubleshoot
+## Troubleshoots
 
 ### `sudo make`
 ```
