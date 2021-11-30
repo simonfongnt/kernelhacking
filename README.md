@@ -14,3 +14,9 @@ Try to disable CONFIG_DEBUG_INFO_BTF
 make: *** [Makefile:1161: vmlinux] Error 1
 ```
 `sudo apt install dwarves`[(2)](https://stackoverflow.com/questions/61657707/btf-tmp-vmlinux-btf-pahole-pahole-is-not-available)
+
+## Revert Grub / Boot menu
+```
+locate "*5.16.0-rc3*" | sudo xargs -ixxx rm -rf 'xxx'
+sudo update-grub2
+```
