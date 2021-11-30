@@ -1,8 +1,8 @@
 # kernelhacking
 
 ## Requirements
-[setup the platform](https://kernelnewbies.org/OutreachyfirstpatchSetup)
-[follw the guideline](https://kernelnewbies.org/FirstKernelPatch)
+* [setup the platform](https://kernelnewbies.org/OutreachyfirstpatchSetup)
+* [follw the guideline](https://kernelnewbies.org/FirstKernelPatch)
 
 ## Problem with `sudo make`
 ```
@@ -26,9 +26,14 @@ locate "*5.16.0-rc3*" | sudo xargs -ixxx rm -rf 'xxx'
 sudo update-grub2
 ```
 
-## `ModuleNotFoundError: No module named 'ply'` with `checkpatch.pl`
+## Problem with `checkpatch.pl`
+```
+ModuleNotFoundError: No module named 'ply'
+```
 `pip uninstall ply; pip uninstall pyhcl; pip install ply; pip install pyhcl`
 `conda install ply`
 
-## `ModuleNotFoundError: No module named 'git'` with `checkpatch.pl`
+```
+ModuleNotFoundError: No module named 'git'
+```
 `pip install gitpython`
