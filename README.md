@@ -17,6 +17,7 @@ make: *** [Makefile:1161: vmlinux] Error 1
 
 ## Revert Grub / Boot menu
 ```
+uname -srm  # get kernel version e.g. Linux 5.16.0-rc3+
 locate "*5.16.0-rc3*" | sudo xargs -ixxx rm -rf 'xxx'
 sudo update-grub2
 ```
