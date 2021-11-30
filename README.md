@@ -28,7 +28,8 @@ set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 10. `mutt -H /tmp/0001-PATCH-staging-XXX-Fix-???.patch` - send it, multiple recipient divided by `,`
 
 ## Troubleshoot
-###`sudo make`
+
+### `sudo make`
 ```
 make[1]: *** No rule to make target 'debian/canonical-certs.pem', needed by 'certs/x509_certificate_list'.  Stop.
 ```
